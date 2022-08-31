@@ -1,0 +1,82 @@
+/*  CSS for all  */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*  Common CSS start  */
+body{}
+/*  Common CSS end  */
+
+/*  Header CSS start  */
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.container {
+	width: 85%;
+	margin: 0 auto;
+	border: 1px solid red;
+	overflow: hidden;
+}
+
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 34px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-size: 15px;
+	font-family: sans-serif;
+	color: #FFFFFF;
+	transition: .3s ease-in-out;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+/*  Header CSS end  */
+
+/*  Banner Section start  */
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-content {}
+.banner-content p:first-child{
+	color: #ffffff;
+}
+.banner-content h1{
+	color: #0077B6;
+}
+.banner-content p:last-child{
+	color: #ffffff;
+}
+/*  Banner Section end  */
