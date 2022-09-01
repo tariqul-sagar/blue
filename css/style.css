@@ -31,10 +31,32 @@ header{
 	width: 100%;
 }
 
+.log-menu{}
+.login{
+	float: right;
+}
+.c-login{
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 170px;
+    padding: 10px 0;
+    color: #101C2C;
+    border: 1px solid #fff;
+}
+.e-login{
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 170px;
+    padding: 10px 0;
+    background-color: #0078BD;
+    color: #ffffff;
+    border: 1px solid #0078BD;
+}
+
 .menu {
 	width: 70%;
 	float: right;
-	margin-top: 34px;
+	margin-top: 8px;
 }
 .menu ul{
 	float: right;
@@ -47,8 +69,8 @@ header{
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 15px 20px;
-	font-size: 15px;
+	padding: 15px 20px 0;
+	font-size: 16px;
 	font-family: sans-serif;
 	color: #FFFFFF;
 	transition: .3s ease-in-out;
@@ -67,17 +89,123 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	min-height: 400px;
 }
 
-.banner-content {}
+.banner-content {
+	margin-top: 200px;
+	margin-bottom: 75px;
+	padding-left: 8px;
+	width: 45%;
+	border: 1px solid yellow;
+}
 .banner-content p:first-child{
+	font-size: 35px;
 	color: #ffffff;
 }
 .banner-content h1{
+	font-size: 45px;
+	padding: 3px 0;
 	color: #0077B6;
 }
-.banner-content p:last-child{
+.banner-content p:nth-child(3){
+	font-size: 18px;
+	line-height: 25px;
 	color: #ffffff;
 }
+.banner-content button{
+	text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+    margin: 20px 0;
+    background-color: #F5F5F5;
+    color: #5A5A5A;
+}
 /*  Banner Section end  */
+
+/*  Service Section start  */
+.service {
+	padding: 25px 0 50px;
+	background-color: #121B2C;
+}
+
+.service-box{
+	width: 32.33%;
+	float: left;
+}
+.service-box-two{
+	width: 32.33%;
+	float: left;
+	border-left: 2px solid #1A2430;
+	border-right: 2px solid #1A2430;
+}
+
+.s-head {
+	padding: 10px 0 0 5px;
+}
+
+.h-img-one {
+	margin-left: -12px;
+	width: 100px;
+    float: left;
+}
+.h-img-one img{
+	width: 100%;
+}
+.h-img-two {
+	margin-left: -12px;
+	width: 80px;
+    float: left;
+}
+.h-img-two img{
+	width: 100%;
+}
+.h-img-three {
+	width: 60px;
+    float: left;
+}
+.h-img-three img{
+	width: 100%;
+}
+
+.h-para {
+	margin-top: 20px;
+}
+.h-para-three{
+	margin-top: 42px;
+	margin-left: 75px;
+}
+.h-para p{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.h-para h3{
+	font-size: 24px;
+	color: #0078BF;
+}
+.h-para-three p{
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.h-para-three p span{
+	font-size: 24px;
+	color: #0078BF;
+}
+
+.s-body {
+	margin: 32px 0 0;
+}
+.s-body p{
+	font-size: 20px;
+	padding: 0 8px;
+	color: #FFFFFF;
+}
+.s-body-three {
+	margin: 37px 0 0;
+}
+.s-body-three p{
+	font-size: 20px;
+	padding-left: 8px;
+	color: #FFFFFF;
+}
+/*  Service Section end  */
