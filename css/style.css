@@ -153,7 +153,7 @@ header{
 	width: 100%;
 }
 .h-img-two {
-	margin-left: -12px;
+	margin-left: -6px;
 	width: 80px;
     float: left;
 }
@@ -195,17 +195,13 @@ header{
 .s-body {
 	margin: 32px 0 0;
 }
-.s-body p{
+.s-body-three {
+	margin: 37px 0 0;
+}
+.s-body p, .s-body-three p{
 	font-size: 20px;
 	padding: 0 8px;
 	color: #FFFFFF;
 }
-.s-body-three {
-	margin: 37px 0 0;
-}
-.s-body-three p{
-	font-size: 20px;
-	padding-left: 8px;
-	color: #FFFFFF;
-}
+
 /*  Service Section end  */
