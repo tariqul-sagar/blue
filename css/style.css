@@ -16,7 +16,7 @@ header{
 .container {
 	width: 85%;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	overflow: hidden;
 }
 
@@ -96,7 +96,7 @@ header{
 	margin-bottom: 75px;
 	padding-left: 8px;
 	width: 45%;
-	border: 1px solid yellow;
+	/*border: 1px solid yellow;*/
 }
 .banner-content p:first-child{
 	font-size: 35px;
