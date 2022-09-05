@@ -200,6 +200,7 @@ header{
 .s-body p, .s-body-three p{
 	font-size: 20px;
 	padding: 0 8px;
+	justify-content: center;
 	color: #FFFFFF;
 }
 
