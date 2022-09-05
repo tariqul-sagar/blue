@@ -1,4 +1,4 @@
-/*  CSS for all  */
+  CSS for all  */
 *{
 	margin: 0;
 	padding: 0;
@@ -16,7 +16,6 @@ header{
 .container {
 	width: 85%;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 	overflow: hidden;
 }
 
@@ -96,7 +95,6 @@ header{
 	margin-bottom: 75px;
 	padding-left: 8px;
 	width: 45%;
-	/*border: 1px solid yellow;*/
 }
 .banner-content p:first-child{
 	font-size: 35px;
@@ -128,7 +126,6 @@ header{
 	padding: 25px 0 50px;
 	background-color: #121B2C;
 }
-
 .service-box{
 	width: 32.33%;
 	float: left;
@@ -176,10 +173,12 @@ header{
 	margin-left: 75px;
 }
 .h-para p{
+	margin: 8px;
 	font-size: 24px;
 	color: #FFFFFF;
 }
 .h-para h3{
+	margin: 0;
 	font-size: 24px;
 	color: #0078BF;
 }
@@ -196,7 +195,7 @@ header{
 	margin: 32px 0 0;
 }
 .s-body-three {
-	margin: 37px 0 0;
+	margin: 44px 0 0;
 }
 .s-body p, .s-body-three p{
 	font-size: 20px;
@@ -205,3 +204,223 @@ header{
 }
 
 /*  Service Section end  */
+
+/*  Testimonial CSS start  */
+.testimonial{
+	background-color: #040811;
+	overflow: hidden;
+}
+.t-box{
+	float: left;
+	width: 33.15%;
+	padding: 30px 0 8px;
+	color: #B5B4B9;
+}
+
+.first{}
+.first p:nth-child(1){
+	margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+.first p:nth-child(1) span{
+	font-weight: 600;
+	color: #0075B8;
+}
+.first p:nth-child(2){
+	margin: 15px 0 8px 0;
+}
+.first p:nth-child(3){
+	margin: 0;
+}
+table{
+	margin: 20px 0 0 0;
+}
+tr{}
+td:nth-child(2){
+	padding: 0 0 0 15px;
+}
+.middle{}
+#rectangular {
+	margin: 0 auto;
+	padding: 5px 12px;
+	width: 90%;
+	justify-content: center;
+	background: #0C1019;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	  border-radius: 10px;
+}
+#rectangular:before {
+   content: "";
+   position: absolute;
+   right: 20%;
+   top: 148px;
+   width: 0;
+   height: 0;
+   border-left: 0px solid transparent;
+   border-right: 59px solid transparent;
+   border-top: 35px solid #0C1019;
+}
+#rectangular p:nth-child(1){
+	margin: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+#rectangular p:nth-child(1) span{
+	font-weight: 600;
+	color: #0075B8;
+}
+#rectangular p:nth-child(2){
+	justify-content: center;
+}
+.r-name{
+	margin-left: 45px;
+}
+.r-name p:nth-child(1){
+	margin: 0;
+    padding: 26px 0 5px
+}
+.r-name p:nth-child(2){
+	margin: 0;
+}
+
+.last{
+	float: left;
+}
+.t-img{
+	width: 33%;
+	float: left;
+}
+.t-img img{
+	width: 100%;
+}
+.t-content{
+	width: 67%;
+    float: left;
+    background: #040811;
+}
+.t-content p:nth-child(1){
+	padding: 0 15px;
+	font-size: 30px;
+	display: inline;
+	color: #ffffff;
+}
+.t-content p:nth-child(2){
+	margin: 2px 0 13px;
+    padding: 0 15px;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    color: #0075B8;
+}
+.t-app{
+	margin: 0 0 0 15px;
+    padding: 0 15px;
+    width: 50%;
+    float: left;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.t-icon{
+	margin: 20px 0 0 0;
+    width: 16%;
+    float: left;
+    display: inline-block;
+}
+.t-icon img{
+	margin: 0;
+	width: 80%;
+}
+.l-content{
+	float: left;
+}
+.l-content p:nth-child(1){
+	margin: 18px 0 0;
+	font-size: 14px;
+    font-weight: 600;
+}
+.l-content p:nth-child(2){
+	margin: 0 0 8px;
+    font-size: 34px;
+    font-weight: 700;
+}
+/*  Testimonial CSS end  */
+
+
+/*  Footer CSS start  */
+footer{
+	padding: 15px 0 10px;
+	background-color: #121B2C;
+}
+.footer-left{
+	margin: 0;
+	float: left;
+	width: 65%;
+	overflow: hidden;
+}
+.f-menu {
+	margin-top: 8px;
+}
+.f-menu ul{
+	margin-left: -40px;
+}
+.f-menu ul li{
+	list-style: none;
+	float: left;
+	color: #FFFEFF;
+}
+.f-menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 20px 0;
+	font-size: 12px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	color: #FFFEFF;
+	transition: .3s ease-in-out;
+}
+.f-menu ul li:first-child a{
+	padding-left: 0;
+}
+.f-menu ul li:last-child a{
+	padding-right: 0;
+}
+.f-menu ul li a:hover{
+	color: #0078BD;
+}
+.footer-left p{
+	font-size: 13px;
+	letter-spacing: 1px;
+	display: inline-block;
+	color: #FFFEFF;
+}
+.footer-right{
+	float: right;
+	width: 35%;
+}
+.right-one{
+	padding: 25px 0 0;
+	float: left;
+    width: 45%;
+}
+.right-one img{
+	width: 100%;
+}
+.right-two{
+	padding: 15px 0 0;
+	float: right;
+	width: 45%;
+}
+.right-two img{
+	width: 100%;
+}
+.develop{
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+/*  Footer CSS end  */
