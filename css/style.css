@@ -97,10 +97,12 @@ header{
 	width: 45%;
 }
 .banner-content p:first-child{
+	margin: 0;
 	font-size: 35px;
 	color: #ffffff;
 }
 .banner-content h1{
+	margin: 0;
 	font-size: 45px;
 	padding: 3px 0;
 	color: #0077B6;
