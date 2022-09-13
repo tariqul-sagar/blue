@@ -216,7 +216,7 @@ header{
 }
 .t-box{
 	float: left;
-	width: 33.15%;
+	width: 33%;
 	padding: 30px 0 8px;
 	color: #B5B4B9;
 }
@@ -291,6 +291,8 @@ td:nth-child(2){
 }
 
 .last{
+	padding-left: 22px;
+	width: 32%;
 	float: left;
 }
 .t-img{
@@ -431,6 +433,10 @@ footer{
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 700;
+	color: #ffffff;
+	transition: .33s ease-in-out;
+}
+.develop a:hover{
 	color: #0075B8;
 }
 /*  Footer CSS end  */
